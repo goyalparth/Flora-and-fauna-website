@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- head tag of index.html starts -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name='title' content="Australian Wildlife">
+        <meta name='description' content="FLora and fauna of Australia">
+        <meta name='keywords' content="Wildlife, flora, fauna, gondwana">
+        <meta name='author' content="Parth Goyal">
+        <meta name='date created' content="20th October, 2021">
+        <title>Australian Wildlife</title>
+
+        <!-- linking external stylesheet wildlife.css -->
+        <link rel="stylesheet" href="wildlife.css">
+
+        <!-- embedded styling -->
+        <style>
+            /* styling for image element */
+            img {
+                float: right;
+                position: relative;
+                top: -35px;
+                padding-left: 5px;
+                padding-right: 10px;
+            }
+
+            /* styling for blochquote element */
+            blockquote::before {
+                content: open-quote;
+            }
+
+            blockquote::after {
+                content: close-quote;
+            }
+
+            blockquote {
+                quotes: "“""”""‘""’";
+            }
+
+            /* styling for detailed title elements */
+            dt {
+                color: rgb(230, 84, 26);
+                font-weight: bold;
+                font-size: 1.5em;
+                font-family: Georgia, 'Times New Roman';
+            }
+        </style>
+
+    </head>
+    <!-- head tag ends -->
+
+    <!-- body of HTML starts -->
+
+    <body>
+
+        <!-- div tag starts -->
+        <div id="wrapper">
+
+            <!-- header of the body -->
+            <header>
+                <!-- using h1 for heading -->
+                <h1>Australian Wildlife</h1>
+            </header>
+
+            <!-- nav menu of the body with class menu -->
+            <nav class="menu">
+                <!-- unordered list for nav -->
+                <ul>
+                    <li><a href="index.html">Home</a> &nbsp;</li>
+                    <!-- &nbsp for extra vertical spacing -->
+                    <li><a href="fauna.html">Fauna</a> &nbsp;</li>
+                    <li><a href="flora.html">Flora</a> &nbsp;</li>
+                </ul> <!-- unordered list ends -->
+            </nav>
+
+            <!-- main content of the body -->
+            <main>
+
+                <!-- using a detailed list here -->
+                <dl>
+
+                    <!--detailed title-->
+                    <dt>
+                        What is Wildlife?
+                    </dt> <!-- detailed title ends -->
+
+                    <!--detailed descripion-->
+                    <dd>
+                        <!-- paragraph starts -->
+                        <p>
+                            Wildlife traditionally refers to the animals that have not been domesticated by humans, but now
+                            it broadly
+                            refers to all the wild animals, plants and other living organisms.
+                        </p>
+                        <!-- paragraph ends -->
+                    </dd> <!-- detailed description ends -->
+
+                    <!--detailed title-->
+                    <dt>
+                        Wildlife in Australia
+                    </dt> <!-- detailed title ends -->
+
+                    <!-- detailed descripion -->
+                    <dd>
+
+                        <!-- div tag for styling of content inside it -->
+                        <div
+                            style=" font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.09em;">
+                            <blockquote>
+                                <!-- blockquote for a quote -->
+                                It is not the
+                                strongest of the species that survives, nor the most intelligent that survives. It is the
+                                one
+                                that
+                                is the most adaptable to change, that lives within the means available and works
+                                co-operatively
+                                against common threats.
+                            </blockquote>
+                            <p style="padding-left: 42px;">- Charles Darwin</p> <!-- paragraph tag with some inline css -->
+                        </div>
+                        <!-- div tag ends -->
+
+                        <!-- paragraph starts -->
+                        <p>
+                            Australia has been geographically isolated from rest of the world for a long time.
+                            Due to which most of its flora and fauna is endemic which means, it can not
+                            be found anywhere else in the world. It is also due to a number of habitats in Australia,
+                            including
+                            deserts, mountains, rainforests, bushlands, and reefs, its wildlife is unique to Australia.<br>
+                            Australia is a very diverse country and home to a large amount of plants and animal species.
+                            There
+                            are thousands of different native species that can be found here. These include some of the most
+                            unusual creatures of Earth.
+                        </p> <!-- paragraph ends -->
+                    </dd> <!-- detailed description ends -->
+
+                    <!--detailed title-->
+                    <dt>
+                        Origin and History
+                    </dt> <!-- detailed titles ends -->
+
+                    <!--detailed descripion-->
+                    <dd>
+                        <!--using an img tag-->
+                        <img src="gondwana.jpg" alt="Gondwana Supercontinent">
+
+                        <!-- paragraph starts -->
+                        <p>
+                            The Supercontinent Gondwana, which comprised of today's Africa, South America, India, Antarctica
+                            and
+                            Australia, began to split apart 140 million years ago. Around 50 million years ago, Australia
+                            separated
+                            from it and started drifting northwards away from Antarctica. Because of the drift, Australia
+                            was
+                            isolated from
+                            the rest of the world for a long time. Its climate got warmer and arid conditions developed.
+                            This
+                            lead to the evolution of various species of flora and fauna and became endemic to Australia.
+                        </p> <!-- paragraph ends -->
+                    </dd> <!-- detailed description ends -->
+                </dl> <!-- detailed list ends -->
+
+            </main>
+            <!-- main ends here -->
+
+            <!-- footer tag starts -->
+            <footer>
+                <!-- using two special characters -->
+                <p>Copyright &copy; 2021 &#0124; Australian Wildlife &#0124; All Rights Reserved</p>
+                <!-- email hperlink -->
+                <a href="mailto:u3223149@uni.canberra.edu.au">u3223149@uni.canberra.edu.au</a>
+            </footer>
+            <!-- footer tag ends -->
+
+        </div>
+        <!-- end of div tag with id=wrapper -->
+
+    </body>
+    <!-- body tag ends here -->
+
+</html>

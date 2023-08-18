@@ -1,0 +1,134 @@
+/* styling for the body of the HTML files */
+body {
+    background-color:silver;
+    color:#0b2742;
+    font-family: Verdana,Arial, sans-serif;
+}
+
+/* styling for id="wrapper" */
+#wrapper {
+    width: 80%;
+    min-width: 700px;   
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #d9e8ec;
+}
+
+/* styling for the header of the HTML files */
+header {
+    background-color: #131175;
+    color: #ffffff;
+    height: 80px;
+    font-size: 1.3em;
+    font-family: Geogia, Times, 'Times New Roman';
+    text-align: center;
+}
+
+/* styling for h1 tag */
+h1 {
+    line-height: 200%;
+    text-indent: 1em;
+    text-align: center;
+}
+
+/* styling for elements with class="center" */
+.center {
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* styling for the main section of the body */
+main {
+    margin-left: 130px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* styling for h2 elements in the main section */
+main h2 {
+    color: rgb(230, 84, 26);
+    text-align: center; 
+    text-decoration: underline;
+}
+
+/* styling for the elements with class="categories" */
+.categories {
+    font-size: 1.1em;
+    font-weight: bold
+}
+
+/* styling for unordered list with class="menu" */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 7%;
+    background-color: #d9e8ec;
+    font-weight: bold;
+    position: absolute  ;
+    height: 100%;
+    overflow: auto;
+    padding-top: 8px;
+}
+
+/* styling for anchor tags of lists with class="menu" */
+.menu li a {
+    display: block;
+    color: rgba(99, 28, 214, 0.986);
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* styling for table, table header and table rows */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px 0px ;
+}
+
+/* styling only for table */
+table {
+    height: 70px;
+    width: 65%;
+}
+
+/* styling only for table header */
+th {
+    background-color: aqua;
+}
+
+/* styling only for table data */
+td {
+    vertical-align: middle;
+    text-align: center;
+} 
+
+/* styling for footer of the HTML files */
+footer {
+    font-size: .70em;
+    font-style: italic;
+    margin-left: 130px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #353535;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+/* styling for the paragraph of the footer */
+footer p {
+    padding-top: 20px;
+}
+
+/* styling for the anchor tags of the footer */
+footer a {
+    color: white
+}
